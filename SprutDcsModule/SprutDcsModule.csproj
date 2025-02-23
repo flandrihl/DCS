@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>Latest</LangVersion>
+        <Authors>𝔸𝕝𝕖𝕩 𝕂𝕠𝕟𝕠𝕡𝕖𝕝𝕜𝕠</Authors>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+        <PackageIcon>sprut.png</PackageIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="sprut.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
